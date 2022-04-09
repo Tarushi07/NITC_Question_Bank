@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.new_firebase">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.New_Firebase">
+        <activity
+            android:name=".FacultyHandlesRequest"
+            android:exported="false" />
+        <activity
+            android:name=".AdminFacultyRequest"
+            android:exported="false" />
+        <activity
+            android:name=".Paper_Request_Form"
+            android:exported="false" />
+        <activity
+            android:name=".PaperType"
+            android:exported="false" />
+        <activity
+            android:name=".PaperNameList"
+            android:exported="false" />
+        <activity
+            android:name=".YearList"
+            android:exported="false" />
+        <activity
+            android:name=".SubjectList"
+            android:exported="false" />
+        <activity
+            android:name=".UploadPaper"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddSubject"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAddCourse"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".FacultyDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRequest"
+            android:exported="false" />
+        <activity
+            android:name=".CourseList"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterUser"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
